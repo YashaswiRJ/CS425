@@ -110,7 +110,8 @@ int32_t main(){
     cout << "The current message (data) is: " << data<< endl;
 
     /* Code for part (b) */
-    string P = "110101";
+    string P = "110101"; 
+    cout << "CRC Pattern: " << P << endl;
     string T = generate_frame(data, P);
     cout << "The generate frame is : " << T << endl;
     cout << "For better visuals: \n"; pretty_print(T, k); cout<<endl;
